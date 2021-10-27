@@ -18,7 +18,6 @@ export class SidebarComponent implements OnInit {
   }
 
   buscar(termino: string) {
-    console.log(termino);
     this.gifsService.buscarGifs(termino);
   }
 
